@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 /* const { default: expect } = require('expect');
 
 const calculator = require('../calculator');
 
  */
 /* 
+=======
+const { default: expect } = require('expect');
+
+const calculator = require('../calculator');
+
+>>>>>>> 8577ec15aae9e159bfed8ce38f453be6f0835b78
 test('adds a + b', () => {
     //
 })
@@ -24,6 +31,7 @@ test('Raises to power a ^ b', () => {
     //
 })
 
+<<<<<<< HEAD
  */
 
 const evaluateNumber = require('../fizzBuzz');
@@ -40,3 +48,5 @@ test('If divisible by both 3 and 5, return "FizzBuzz"', () => {
     expect(evaluateNumber.evaluateNumber2(15).toBe('FizzBuzz'));
 });
 
+=======
+>>>>>>> 8577ec15aae9e159bfed8ce38f453be6f0835b78
